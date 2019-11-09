@@ -1,8 +1,11 @@
 # OpenFaas Node.JS 12 function examples
 
+## Prerequisite
+It is assumed that you already have OpenFaas installed and you're logged in with faas-cli
+
 ## Clone the repo
 ```sh
-git clone https://github.com/utsavanand2/openfaasfn.git
+git clone https://github.com/utsavanand2/faasnode12.git
 ```
 
 ## Pull the NodeJS v12 template
