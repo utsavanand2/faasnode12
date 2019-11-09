@@ -1,7 +1,7 @@
 "use-strict"
 
 const https = require('https')
-let url = "https://openfaas.com"
+let url = "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
 
 module.exports = async (event, context) => {
   const promise = new Promise(function(resolve, reject) {

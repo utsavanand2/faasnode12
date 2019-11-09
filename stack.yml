@@ -11,3 +11,23 @@ functions:
     lang: node12
     handler: ./axios
     image: utsavanand2/asyncaxios:v1
+  event:
+    lang: node12
+    handler: ./event
+    image: utsavanand2/event:v1
+  nonasynclsbucket:
+    lang: node12
+    handler: ./nonasynclsbucket
+    image: utsavanand2/nonasynclsbucket:v1
+    environment_file:
+      - envfile.yml
+  asynclsbucket:
+    lang: node12
+    handler: ./asynclsbucket
+    image: utsavanand2/asynclsbucket:v1
+    environment_file:
+      - envfile.yml
+  nonasynchello:
+    lang: node12
+    handler: ./nonasynchello
+    image: utsavanand2/nonasynchello:v1
