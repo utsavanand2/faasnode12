@@ -1,0 +1,13 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  hello:
+    lang: node12
+    handler: ./hello
+    image: utsavanand2/hello:v1
+  axios:
+    lang: node12
+    handler: ./axios
+    image: utsavanand2/asyncaxios:v1
